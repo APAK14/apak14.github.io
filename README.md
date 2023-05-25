@@ -9,6 +9,10 @@ https://apak14.github.io/wa/wa2.html
 https://apak14.github.io/wa/wa3.html
 ,
 https://apak14.github.io/wa/wa4.html
+,
+https://apak14.github.io/wa/wa5.html
+,
+https://apak14.github.io/wa/wa6.html
 
 ICA:
 https://github.com/APAK14/apak14.github.io/blob/main/ica/Alexis%20Pak%20-%20ICA1%20--%20How%20to%20Search.pdf
