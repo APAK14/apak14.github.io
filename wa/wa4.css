@@ -11,7 +11,12 @@
   /* Selectors to be matched up with rulesets */
   
   /* Rulesets to be matched up with selectors */
-  
+  article{
+    color: white;
+  }
+  header, footer{
+    color: black;
+  }
   .card{
     width: 35em;
     height: 22em;
