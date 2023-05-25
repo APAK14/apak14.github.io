@@ -18,6 +18,8 @@ https://github.com/APAK14/apak14.github.io/blob/main/ica/Alexis%20Pak%20-%20ICA2
 https://apak14.github.io/ica/ica4.html
 ,
 https://apak14.github.io/ica/ica5.html
+,
+https://apak14.github.io/ica/ica6/ica6-part1.html
 
 Midterm:
 https://apak14.github.io/html-midterm/page1.html
