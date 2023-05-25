@@ -1,5 +1,4 @@
 /* General page styles - put these straight into your stylesheet */
-
 /*body {
     margin: 0;
   }
@@ -17,7 +16,7 @@
     width: 35em;
     height: 22em;
     margin: 5em auto;
-    background-colour: red;
+    background-color: red;
     border: 0.2em solid black;
     border-radius: 1.5em;
   }
