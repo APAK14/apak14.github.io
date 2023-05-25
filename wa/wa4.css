@@ -1,5 +1,5 @@
 /* General page styles - put these straight into your stylesheet */
-/*body {
+body {
     margin: 0;
   }
   
@@ -14,7 +14,10 @@
   article{
     color: white;
   }
-  header, footer{
+  header{
+    color: black;
+  }
+  footer{
     color: black;
   }
   .card{
