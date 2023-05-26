@@ -19,16 +19,17 @@ body {
   header, footer{
     color: black;
     height: 3.125em;
+    padding 5px;
   }
   h2, p{
     margin:0;
   }
-  #he{
-    size: 1.25em;
+  .h2class{
+    font-size: 1.25em;
   }
   .card{
     width: 35em;
-    height: 22em;
+    height: 22em; /*22*/
     margin: 5em auto;
     background-color: red;
     border: 0.2em solid black;
