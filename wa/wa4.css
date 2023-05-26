@@ -14,11 +14,12 @@ body {
   article{
     color: white;
   }
-  header{
+  header, footer{
     color: black;
+    height: 3.125em
   }
-  footer{
-    color: black;
+  h2, p{
+    margin:0;
   }
   .card{
     width: 35em;
@@ -27,6 +28,7 @@ body {
     background-color: red;
     border: 0.2em solid black;
     border-radius: 1.5em;
+    padding: 0.625em;
   }
   
   .card header{

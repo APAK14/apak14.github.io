@@ -2,24 +2,21 @@
     box-sizing: border-box;
   }
   
-  html {
-    font-family: sans-serif;
-  }
-  
   body {
     margin: 0;
     background: #ccc;
+    height: 100%
   }
   
   article {
-    width: 210mm;
-    height: 297mm;
+    width: 30cm;
+    height: 20cm;
     margin: 20px auto;
     position: relative;
-    border-top: 1mm solid red;
-    background: linear-gradient(rgba(0,0,0, 0.2) 10%, rgba(0,0,0,0) 20%, rgba(0,0,0,0) 70%, rgba(0,0,0,0.2) 90%),
-    url(img5/top-image.png) no-repeat top,
-    url(img5/bottom-image.png) no-repeat bottom;
+    border-top: 1mm solid navy;
+    background: url(imgwa5/news.png) no-repeat bottom,
+    url(imgwa5/main.jpg) no-repeat cover 100% center ,
+    url(imgwa5/board.png) no-repeat top;
     background-color: white;
   }
   
