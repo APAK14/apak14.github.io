@@ -1,44 +1,4 @@
-* {
-    box-sizing: border-box;
-  }
-  
-  body {
-    margin: 0;
-    background: #ccc;
-    height: 100%
-  }
-  
-  article {
-    width: 30cm;
-    height: 20cm;
-    margin: 20px auto;
-    position: relative;
-    border-top: 1mm solid navy;
-    background: url(imgwa5/news.png) no-repeat bottom,
-    url(imgwa5/main.jpg) no-repeat cover 100% center ,
-    url(imgwa5/board.png) no-repeat top;
-    background-color: white;
-  }
-  
-  address {
-    position: absolute;
-    bottom: 8mm;
-    right: 20mm;
-  }
-  
-  h1 {
-    position: absolute;
-    top: 12mm;
-    left: 20mm;
-    width: 128px;
-    height: 128px;
-    font-size: 20px;
-    letter-spacing: 1px;
-    text-align: center;
-    padding: 44px 0;
-    color: white;
-    text-shadow: 1px 1px 1px black;
-    background-image: url(img5/logo.png);
-    box-shadow: 4px 4px 4px rgba(0,0,0,.8);
-    border-radius: 68px;
+.container {
+    background-image: url("imgwa5/main.jpg");
+    background-size: cover;
   }
