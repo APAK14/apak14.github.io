@@ -12,6 +12,7 @@ body {
   
   /* Rulesets to be matched up with selectors */
   article{
+    background-color: rgba(0,0,0,0.25);
     color: white;
     height:7.5em;
   }
