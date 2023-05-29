@@ -1,9 +1,15 @@
-.background {
-  position: relative;
+body {
+  margin: 0;
+  background: #ccc;
 }
 
-.container img {
-  width: 100%;
-  height: auto;
-  /* Add any other necessary styling for the background image */
+.overlay {
+  width: 210mm;
+  height: 297mm;
+  margin: 20px auto;
+  position: relative;
+  border-top: 1mm solid red;
+  background: url(imgwa5/news.png) no-repeat top,
+  url(imgwa5/board.png) no-repeat bottom;
+  background-color: white;
 }
