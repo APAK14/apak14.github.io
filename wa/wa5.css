@@ -1,4 +1,9 @@
-.container {
-    background-image: url("imgwa5/main.jpg");
-    background-size: cover;
-  }
+.background {
+  position: relative;
+}
+
+.container img {
+  width: 100%;
+  height: auto;
+  /* Add any other necessary styling for the background image */
+}

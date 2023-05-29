@@ -66,37 +66,55 @@ body {
     list-style: none;
     margin: 0;
     padding: 0;
-    display: flex;
-    grid-template-columns: repeat(2, 1fr);
-    grid-gap: 1px;
   }
 
-  @media (min-width: 501px) {
-    .container {
-      display: grid;
-      grid-template-columns: 1fr 1fr;
-      grid-gap: 20px;
-    }
-    .photos {
-      display: grid;
-      grid-template-columns: repeat(2, 1fr);
-      grid-gap: 1px;
-    }
-    }
+  @media (min-width: 500px) {
+
+      /* CSS rules for larger screens */
+  /* Task 1: Display the navigation items in a row with equal spacing */
+  .nav-list {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  /* Task 2: Make the navigation bar stick to the top of the viewport when scrolling */
+  .nav {
+    position: sticky;
+    top: 0;
+  }
+
+  /* Task 3: Wrap text around the image inside the <article> */
+  .article image {
+    float: left;
+  }
+
+  /* Task 4: Display <article> and <aside> as a two-column layout */
+  .article-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  }
+
+  /* Task 5: Display photographs as a two-column grid with a 1 pixel gap */
+  .photographs-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 1px;
+  }
+}
   
-    @media (max-width: 500px) {
-      /* Screens smaller than 500px */
-      .container {
-        display: flex;
-        flex-direction: column;
-      }
-    
-      .photos {
-        display: flex;
-        flex-wrap: wrap;
-      }
-    
-      .nav-list {
-        flex-direction: column;
-      }
+@media (max-width: 500px) {
+    /* Screens smaller than 500px */
+   .container {
+     display: flex;
+     flex-direction: column;
     }
+    
+    .photos {
+     display: flex;
+     flex-wrap: wrap;
+     }
+    
+    .nav-list {
+     flex-direction: column;
+     }
+  }
