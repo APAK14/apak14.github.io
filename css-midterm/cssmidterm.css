@@ -43,7 +43,7 @@ body, h1, h2, p, ul {
   
   /* Hero section styles */
   #hero {
-    background-image: url('path/to/your-image.jpg');
+    background-image: url('boatbuilding.jpg');
     background-size: cover;
     background-position: center;
     height: 400px;
@@ -53,6 +53,7 @@ body, h1, h2, p, ul {
     align-items: center;
     text-align: center;
     color: #68b8c8e0;
+    filter: blur(5px);
   }
   
   #hero h1 {
@@ -67,6 +68,7 @@ body, h1, h2, p, ul {
     padding: 10px 20px;
     border-radius: 5px;
     text-decoration: none;
+    
   }
   
   /* Other section styles */

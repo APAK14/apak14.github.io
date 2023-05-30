@@ -31,3 +31,5 @@ https://apak14.github.io/ica/ica7/ica7.html
 
 Midterm:
 https://apak14.github.io/html-midterm/page1.html
+,
+https://apak14.github.io/css-midterm/cssmidterm-main.html
