@@ -46,9 +46,15 @@ nav a {
 }
 
 .article img {
-  float: right;
+  float: left;
   margin-left: 10px;
   shape-outside: float;
+}
+
+.img-wrap {
+  float: right;
+  margin: 0 0 10px 10px;
+  shape-outside: inset(0 0 0 10px);
 }
 
 .container {
@@ -77,6 +83,11 @@ nav a {
   .photos {
     grid-template-columns: 1fr;
   }
+}
+.img-wrap {
+  float: none;
+  margin: 0;
+  shape-outside: none;
 }
 
 .feature {
