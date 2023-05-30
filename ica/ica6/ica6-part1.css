@@ -15,19 +15,21 @@ body{
 #box2{
     width: 73vw;
     height: 33vh;
-
+    position:absolute;
+    bottom: 0;
+    left: 0;
     border-style: solid;
     border-radius:3px;
     border-color:purple;
-    position:relative;
-    left: 40vw;
     background-color: mediumvioletred;
 }
 
 #box3{
-position: sticky;
+position: fixed;
+top: 0;
+left: 0;
 width: 73vw;
-height: 175vh;
+height: 33vh;
 border-radius: 10px;
 background-color: orangered;
 }
