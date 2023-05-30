@@ -10,3 +10,31 @@
 #tallScreen{
     background-color: lavender;
 }
+
+/* Media query for screens narrower than 600px */
+@media (max-width: 600px) {
+    #narrowScreen {
+      background-color: purple;
+    }
+  }
+  
+  /* Media query for screens wider than 800px */
+  @media (min-width: 801px) {
+    #wideScreen {
+      background-color: lightblue;
+    }
+  }
+  
+  /* Media query for screens shorter than 500px */
+  @media (max-height: 499px) {
+    #shortScreen {
+      background-color: yellow;
+    }
+  }
+  
+  /* Media query for screens taller than 800px */
+  @media (min-height: 801px) {
+    #tallScreen {
+      background-color: orange;
+    }
+  }

@@ -1,7 +1,39 @@
+<!DOCTYPE html>
 <html>
-    <head></head>
-    <body>
-        <p>Hello, World!</p>
-        <p>My name is NAME</p> <!-- Change NAME to your name, and use more <p> elements to tell me about yourself! -->
-    </body>
+  <head>
+    <title>Title of the document</title>
+    <style>
+      .gallerypic {
+        width: 500px;
+        text-decoration: none;
+        position: relative;
+        display: block;
+        border: 1px solid #666;
+        padding: 3px;
+        margin-right: 5px;
+        float: left;
+      }
+      .gallerypic span.zoom-icon {
+        visibility: hidden;
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        filter: alpha(opacity=50);
+        -moz-opacity: 0.5;
+        -khtml-opacity: 0.5;
+        opacity: 0.6;
+      }
+      a.gallerypic:hover span.zoom-icon {
+        visibility: visible;
+      }
+    </style>
+  </head>
+  <body>
+    <a href="#" class="gallerypic">
+      <img src="https://images.unsplash.com/photo-1492136344046-866c85e0bf04?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="Gallery Photo" class="pic" />
+      <span class="zoom-icon">
+        <img src="https://images.unsplash.com/photo-1505205296326-2178af1b47bf?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" width="200" height="150" alt="Zoom">
+      </span>
+    </a>
+  </body>
 </html>

@@ -1,14 +1,13 @@
 .background {
-  margin: 0;
-  background: #ccc;
+  width: 500px;
+  height: 330px;
+  background-position: relative;
+  background-size: contain;
+  background-repeat: no-repeat;
 }
 
 .overlay {
-  width: 210mm;
-  height: 297mm;
-  margin: 20px auto;
-  position: relative;
-  background: url(imgwa5/news.png),
-  url(imgwa5/board.png);
-  background-color: white;
+  position: absolute;
+  top: 0;
+  left: 0;
 }
