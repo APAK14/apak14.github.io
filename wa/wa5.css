@@ -1,13 +1,17 @@
-.background {
-  width: 500px;
-  height: 330px;
-  background-position: relative;
-  background-size: contain;
-  background-repeat: no-repeat;
+.background img {
+  width: 800px; /* Adjust the desired width */
+  height: 550px; /* Adjust the desired height */
+  object-fit: cover;
 }
 
 .overlay {
   position: absolute;
-  top: 0;
-  left: 0;
+  top: 10px; /* Adjust the desired distance from the top */
+  left: 10px; /* Adjust the desired distance from the left */
+}
+
+.overlay2 {
+  position: absolute;
+  bottom: 10px; /* Adjust the desired distance from the bottom */
+  right: 10px; /* Adjust the desired distance from the right */
 }
