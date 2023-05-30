@@ -7,14 +7,24 @@ body{
     background-color: indianred;
 }
 
+#box1:hover {
+    background-color: purple;
+}
 
 #box2{
     width: 25vw;
     height:20vh;
-    position: relative;
     background-color: orangered;
+    position: absolute;
+    animation-name: box2move;
+    animation-iteration-count: infinite;
+    animation-duration: 30s;
+    left: 0;
+    animation: box2move 4s linear infinite;
 }
 
 @keyframes box2move{
-
+    0% { left: 0; }
+    50% { left: calc(100% - 200px); }
+    100% { left: 0; }
 }
