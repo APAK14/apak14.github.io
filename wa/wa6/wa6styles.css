@@ -1,120 +1,84 @@
 body {
-    background-color: #fff;
-    color: #333;
-    margin: 0;
-    font: 1.2em / 1.2 Arial, Helvetica, sans-serif;
-  }
+  background-color: #fff;
+  color: #333;
+  margin: 0;
+  font: 1.2em / 1.2 Arial, Helvetica, sans-serif;
+}
 
-  img {
-      max-width: 100%;
-      display: block;
-  }
-  
-  .logo {
-    font-size: 200%;
-    padding: 50px 20px;
-    margin: 0 auto;
-    max-width: 980px;
-  }
-  
-  .grid {
-    margin: 0 auto;
-    padding: 0 20px;
-    max-width: 980px;
-  }
+img {
+  max-width: 100%;
+  display: block;
+}
 
-  nav {
-    background-color: #000;
-    padding: .5em;
-  }
-  
-  nav ul {
-    margin: 0;
-    padding: 0;
-    list-style: none;
-    overflow: hidden;
-  }
+.logo {
+  font-size: 200%;
+  padding: 50px 20px;
+  margin: 0 auto;
+  max-width: 980px;
+}
 
-  .nav-list {
-    display: flex;
-    justify-content: space-between;
-  }
+.grid {
+  margin: 0 auto;
+  padding: 0 20px;
+  max-width: 980px;
+}
 
-  .nav {
-    position: sticky;
-    top: 0;
-  }
-  
-  nav a {
-    color: #fff;
-    text-decoration: none;
-    padding: .5em 1em;
-    float: left;
-    
-  }
+nav {
+  background-color: #000;
+  padding: .5em;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
 
-  .article img {
-    float: right;
-    margin-left: 10px;
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  padding: .5em 1em;
+}
+
+.article img {
+  float: right;
+  margin-left: 10px;
+  shape-outside: float;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 20px;
+}
+
+@media (min-width: 768px) {
+  .container {
+    grid-template-columns: 1fr 1fr;
   }
-  
-  .feature {
-      width: 200px;
+}
+
+.photos {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1px;
+}
+
+@media (max-width: 500px) {
+  .container {
+    grid-template-columns: 1fr;
   }
 
   .photos {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-  }
-
-  @media (min-width: 500px) {
-
-      /* CSS rules for larger screens */
-  /* Task 1: Display the navigation items in a row with equal spacing */
-  .nav-list {
-    display: flex;
-    justify-content: space-between;
-  }
-
-  /* Task 2: Make the navigation bar stick to the top of the viewport when scrolling */
-  .nav {
-    position: sticky;
-    top: 0;
-  }
-
-  /* Task 3: Wrap text around the image inside the <article> */
-  .article image {
-    float: left;
-  }
-
-  /* Task 4: Display <article> and <aside> as a two-column layout */
-  .article-container {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-  }
-
-  /* Task 5: Display photographs as a two-column grid with a 1 pixel gap */
-  .photographs-container {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-gap: 1px;
+    grid-template-columns: 1fr;
   }
 }
-  
-@media (max-width: 500px) {
-    /* Screens smaller than 500px */
-   .container {
-     display: flex;
-     flex-direction: column;
-    }
-    
-    .photos {
-     display: flex;
-     flex-wrap: wrap;
-     }
-    
-    .nav-list {
-     flex-direction: column;
-     }
-  }
+
+.feature {
+  width: 200px;
+}
