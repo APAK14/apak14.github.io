@@ -43,7 +43,7 @@ body, h1, h2, p, ul {
   
   /* Hero section styles */
   #hero {
-    background-image: url('boatbuilding.jpg');
+    background-image: url('trees.jpg');
     background-size: cover;
     background-position: center;
     height: 400px;
@@ -52,13 +52,14 @@ body, h1, h2, p, ul {
     justify-content: center;
     align-items: center;
     text-align: center;
-    color: #68b8c8e0;
-    filter: blur(5px);
+    color: #9440cce0;
   }
+
   
   #hero h1 {
-    font-size: 48px;
+    font-size: 70px;
     margin-bottom: 10px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 1);
   }
   
   .cta-button {
@@ -68,7 +69,7 @@ body, h1, h2, p, ul {
     padding: 10px 20px;
     border-radius: 5px;
     text-decoration: none;
-    
+    margin-top: 20px;
   }
   
   /* Other section styles */
