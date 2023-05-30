@@ -1,7 +1,7 @@
 /* Reset default browser styles */
 body, h1, h2, p, ul {
     margin: 0;
-    padding: 0;
+    padding: 10px;
   }
   
   /* Global styles */
@@ -58,13 +58,11 @@ body, h1, h2, p, ul {
   #hero h1 {
     font-size: 48px;
     margin-bottom: 10px;
-    padding: 20px
   }
   
   #hero h2 {
     font-size: 24px;
     margin-bottom: 20px;
-    padding: 20px
   }
   
   .cta-button {
@@ -92,7 +90,7 @@ body, h1, h2, p, ul {
   
   /* Footer styles */
   footer {
-    background-color: #333;
+    background-color: #6c6c6c;
     color: #f9eeee;
     padding: 10px;
     text-align: center;
