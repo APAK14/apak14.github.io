@@ -1,17 +1,49 @@
+html,body {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+}
+
 .background img {
-  width: 800px; /* Adjust the desired width */
-  height: 550px; /* Adjust the desired height */
+  width: 800px; 
+  height: 550px;
   object-fit: cover;
+}
+
+.background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.container {
+  flex-grow: 1;
+  position: relative;
 }
 
 .overlay {
   position: absolute;
-  top: 10px; /* Adjust the desired distance from the top */
-  left: 10px; /* Adjust the desired distance from the left */
+  top: 0; 
+  left: 10px;
 }
 
 .overlay2 {
   position: absolute;
-  bottom: 10px; /* Adjust the desired distance from the bottom */
-  right: 10px; /* Adjust the desired distance from the right */
+  bottom: 10px;
+  right: 10px; 
+}
+.overlay img {
+  width: 200px; /* Adjust the desired width */
+  height: auto; /* Adjust the height proportionally */
+}
+
+.overlay2 img {
+  width: 100px; /* Adjust the desired width */
+  height: auto; /* Adjust the height proportionally */
 }
