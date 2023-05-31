@@ -28,10 +28,10 @@ https://apak14.github.io/ica/ica5.html
 https://apak14.github.io/ica/ica6/ica6-part1.html
 ,
 https://apak14.github.io/ica/ica7/ica7.html
+,
+https://apak14.github.io/ica/ica8.html
 
 Midterm:
 https://apak14.github.io/html-midterm/page1.html
 ,
 https://apak14.github.io/css-midterm/cssmidterm-main.html
-,
-https://apak14.github.io/ica/ica8.html
