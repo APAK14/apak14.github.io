@@ -2,23 +2,30 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: blanchedalmond;
+    background-color: rgb(221, 128, 69);
 }
+h1, nav a {
+    font-family: "Montserrat", sans-serif;
+  }
 nav{
     height: 50vh;
     display:flex;
     flex-direction: row;
     justify-content: space-between;
     height:20px;
-    background-color: blueviolet;
+    background-color: rgb(218, 154, 6);
 }
 nav a{
     width:10vw;
     text-align: center;
     text-decoration: none;
-    color:black;
+    color:rgb(124, 5, 5);
+    transition: background-color 0.3s ease;
 }
-
+nav a:hover {
+    background-color: rgb(255, 0, 0);
+  }
+  
 
 img{
     width:30vw;
@@ -26,7 +33,7 @@ img{
 }
 
 #red-ball{
-    background-color: crimson;
+    background-color: rgb(242, 147, 110);
     width: 20px;
     height:20px;
     border-radius: 50%;
