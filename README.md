@@ -12,7 +12,7 @@ https://apak14.github.io/wa/wa4.html
 ,
 https://apak14.github.io/wa/wa5.html
 ,
-https://apak14.github.io/wa/wa6.html
+https://apak14.github.io/wa/wa6/wa6.html
 ,
 https://apak14.github.io/wa/wa7/week7.html
 
