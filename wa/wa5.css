@@ -39,11 +39,11 @@ body {
   right: 10px; 
 }
 .overlay img {
-  width: 200px; /* Adjust the desired width */
-  height: auto; /* Adjust the height proportionally */
+  width: 200px; 
+  height: auto; 
 }
 
 .overlay2 img {
-  width: 100px; /* Adjust the desired width */
-  height: auto; /* Adjust the height proportionally */
+  width: 100px; 
+  height: auto; 
 }
