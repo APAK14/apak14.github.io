@@ -1,17 +1,16 @@
-html,body {
+html, body {
   height: 100%;
+  margin: 0;
 }
 
 body {
-  margin: 0;
   display: flex;
   flex-direction: column;
 }
 
-.background img {
-  width: 800px; 
-  height: 550px;
-  object-fit: cover;
+.container {
+  flex-grow: 1;
+  position: relative;
 }
 
 .background {
@@ -22,28 +21,31 @@ body {
   height: 100%;
 }
 
-.container {
-  flex-grow: 1;
-  position: relative;
+.background img {
+  width: 1000px;
+  height: 700px;
+  object-fit: cover;
+  /*border: 0.2em ;*/
 }
 
 .overlay {
   position: absolute;
-  top: 0; 
+  top: 0;
   left: 10px;
 }
 
 .overlay2 {
   position: absolute;
-  bottom: 10px;
-  right: 10px; 
+  bottom: 0px;
+  right: 0px;
 }
+
 .overlay img {
-  width: 200px; 
-  height: auto; 
+  width: 200px;
+  height: auto;
 }
 
 .overlay2 img {
-  width: 100px; 
-  height: auto; 
+  width: 100px;
+  height: auto;
 }
