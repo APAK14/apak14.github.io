@@ -33,3 +33,5 @@ Midterm:
 https://apak14.github.io/html-midterm/page1.html
 ,
 https://apak14.github.io/css-midterm/cssmidterm-main.html
+,
+https://apak14.github.io/ica/ica8.html
