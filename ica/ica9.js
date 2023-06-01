@@ -1,17 +1,13 @@
-// Step 3: Select the new quote button using querySelector
-const newQuoteButton = document.querySelector('#new-quote');
+// Select the new quote button using querySelector
+const newQuoteButton = document.querySelector('#js-new-quote');
 
-// Step 4: Write an event listener to check if the button is clicked
+// Write an event listener to check if the button is clicked
 newQuoteButton.addEventListener('click', getQuote);
 
-// Step 5: Write the function declaration for getQuote
+// Function to fetch a random quote from the API endpoint
 function getQuote() {
-  console.log('Button clicked!');
-
-  // Step 6: Add a variable for the API endpoint
   const apiEndpoint = 'https://trivia.cyberwisp.com/getrandomchristmasquestion';
 
-  // Step 7: Use fetch to get a random quote from the endpoint
   fetch(apiEndpoint)
     .then(response => {
       if (response.ok) {
@@ -21,22 +17,23 @@ function getQuote() {
       }
     })
     .then(data => {
-      // Step 8: Output the quote to the console
-      console.log(data);
-      displayQuote(data);
+      displayQuote(data.question);
+      displayAnswer(data.answer);
     })
     .catch(error => {
-      // Step 9: Output an error message to the console and alert
       console.error(error);
       alert('Failed to fetch quote. Please try again.');
     });
 }
 
-// Step 10: Write the displayQuote function
+// Function to display the quote text in the HTML element
 function displayQuote(quote) {
   const quoteText = document.getElementById('js-quote-text');
   quoteText.textContent = quote;
 }
 
-// Step 11: Run displayQuote when the page loads
-displayQuote(''); // Provide an initial empty quote to clear the previous quote on page load
+// Function to display the answer text in the HTML element
+function displayAnswer(answer) {
+  const answerText = document.getElementById('js-answer-text');
+  answerText.textContent = answer;
+}

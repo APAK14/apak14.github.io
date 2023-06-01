@@ -9,5 +9,5 @@ element1.addEventListener("click", function() {
 var element2 = document.getElementById("element2");
 element2.addEventListener("mouseover", function() {
   // Change the text content of element2
-  element2.textContent = "New Text Content";
+  element2.textContent = "You hovered!";
 });
