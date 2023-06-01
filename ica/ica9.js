@@ -34,6 +34,19 @@ function displayQuote(quote) {
 
 // Function to display the answer text in the HTML element
 function displayAnswer(answer) {
+    const answerText = document.getElementById('js-answer-text');
+    answerText.textContent = answer;
+    answerText.style.display = 'none'; // Hide the answer by default
+  }
+  // Select the "Show me the answer!" button using querySelector
+const showAnswerButton = document.querySelector('#js-tweet');
+
+// Write an event listener to check if the button is clicked
+showAnswerButton.addEventListener('click', showAnswer);
+
+// Function to show the answer text when the button is clicked
+function showAnswer() {
   const answerText = document.getElementById('js-answer-text');
-  answerText.textContent = answer;
+  answerText.style.display = 'block'; // Show the answer
 }
+
