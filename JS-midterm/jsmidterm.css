@@ -1,0 +1,11 @@
+#volume-control {
+    width: 400px;
+    height: 200px;
+    background-color: yellow;
+    border: 2px solid black;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
