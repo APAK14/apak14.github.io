@@ -30,6 +30,8 @@ https://apak14.github.io/ica/ica6/ica6-part1.html
 https://apak14.github.io/ica/ica7/ica7.html
 ,
 https://apak14.github.io/ica/ica8.html
+,
+https://apak14.github.io/ica/ica9.html
 
 Midterm:
 https://apak14.github.io/html-midterm/page1.html
