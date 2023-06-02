@@ -3,12 +3,20 @@
 <head>
   <title>Silly Story Generator</title>
   <link rel="stylesheet" href="wa8.css">
+  <script src="wa8.js"></script>
 </head>
 <body>
   <h1>Silly Story Generator</h1>
-  <button onclick="generateStory()">Generate Story</button>
-  <p id="story"></p>
+  <h3>To generate a story, please choose an animal!</h3>
+  <div class="button-container">
+  <button onclick="generateStory('cat')">Choose Cat</button>
+  <button onclick="generateStory('dog')">Choose Dog</button>
+  </div>
+  
+  
+  <div class="story-box">
+    <p id="story"></p>
+  </div>
 
-  <script src="wa8.js"></script>
 </body>
 </html>
