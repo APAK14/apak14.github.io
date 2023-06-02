@@ -4,14 +4,15 @@ var picture = document.getElementById("picture");
 
 // Array of iceland picture URLs
 var dogPictures = [
-  "ica8img/iceland2.jpg",
+  "ica8img/iceland2.JPG",
   "ica8img/Iceland-10.jpg",
   "ica8img/Iceland-13.jpg",
   "ica8img/Iceland-3.jpg",
   "ica8img/Iceland-4.jpg",
   "ica8img/Iceland-12.jpg",
-  "ica8img/Iceland.jpg",
+  "ica8img/iceland.jpg",
 ];
+
 
 var currentPictureIndex = 0;
 
