@@ -2,30 +2,42 @@
 var changePictureButton = document.getElementById("changePictureButton");
 var picture = document.getElementById("picture");
 
-// Array of iceland picture URLs
+// Array of dog picture URLs
 var dogPictures = [
-  "iceland2.jpg",
-  "Iceland-10.jpg",
-  "Iceland-13.jpg",
+  "ica8img/iceland2.jpg",
+  "ica8img/iceland-10.jpg",
+  "ica8img/iceland-13.jpg",
+  "ica8img/iceland-3.jpg",
+  "ica8img/iceland-4.jpg",
+  "ica8img/iceland-12.jpg",
+  "ica8img/iceland.jpg",
 ];
 
+var currentPictureIndex = 0;
+
 changePictureButton.addEventListener("click", function() {
-  // Generate a random index to select a picture
-  var randomIndex = Math.floor(Math.random() * dogPictures.length);
-  
+  // Generate a random index that is different from the current index
+  var randomIndex = currentPictureIndex;
+  while (randomIndex === currentPictureIndex) {
+    randomIndex = Math.floor(Math.random() * dogPictures.length);
+  }
+
+  // Update the current picture index
+  currentPictureIndex = randomIndex;
+
   // Change the source and add a class to hide the picture temporarily
   picture.src = dogPictures[randomIndex];
   picture.classList.add("hidden");
 
-  // Wait a brief moment to reveal the new picture
+  // Wait for a brief moment before removing the hidden class to reveal the new picture
   setTimeout(function() {
     picture.classList.remove("hidden");
   }, 100);
 });
 
-// Picture hover
+// Event listener for the picture hover
 picture.addEventListener("mouseover", function() {
-  // Random RGB color value
+  // Generate a random RGB color value
   var randomColor = generateRandomColor();
 
   // Change the page background color
