@@ -5,8 +5,8 @@ var picture = document.getElementById("picture");
 // Array of iceland picture URLs
 var dogPictures = [
   "iceland2.jpg",
-  "iceland-10.jpg",
-  "iceland-13.jpg",
+  "Iceland-10.jpg",
+  "Iceland-13.jpg",
 ];
 
 changePictureButton.addEventListener("click", function() {
