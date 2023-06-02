@@ -2,7 +2,7 @@
 var changePictureButton = document.getElementById("changePictureButton");
 var picture = document.getElementById("picture");
 
-// Array of dog picture URLs
+// Array of iceland picture URLs
 var dogPictures = [
   "ica8img/iceland2.jpg",
   "ica8img/iceland-10.jpg",
