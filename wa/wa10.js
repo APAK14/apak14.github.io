@@ -31,6 +31,7 @@ var sam = {
     raiseEligible: false
   };
   
+  // Problem 2
   var company = {
     companyName: "Tech Stars",
     website: "www.techstars.site",
@@ -39,12 +40,12 @@ var sam = {
   
   console.log(company);
   
-  // Problem 2
+// Problem 3
 company.employees.push(anna);
 
 console.log(company);
 
-// Problem 3
+// Problem 4
 function calculateTotalSalary(company) {
     var totalSalary = 0;
   
@@ -57,4 +58,33 @@ function calculateTotalSalary(company) {
   
   var totalSalary = calculateTotalSalary(company);
   console.log("Total Salary: " + totalSalary);
+  
+  // Problem 5
+function giveRaises(company) {
+    for (var i = 0; i < company.employees.length; i++) {
+      var employee = company.employees[i];
+      if (employee.raiseEligible) {
+        employee.salary *= 1.1; // Increase salary by 10%
+        employee.raiseEligible = false; // Set eligibility to false
+      }
+    }
+  
+    console.log(company);
+  }
+  
+  giveRaises(company);
+
+  // Problem 6
+function updateWorkFromHomeStatus(company, workingFromHome) {
+    for (var i = 0; i < company.employees.length; i++) {
+      var employee = company.employees[i];
+      employee.wfh = workingFromHome.includes(employee.firstName);
+    }
+  
+    console.log(company);
+  }
+  
+  var workingFromHome = ['Anna', 'Sam'];
+  updateWorkFromHomeStatus(company, workingFromHome);
+  
   
