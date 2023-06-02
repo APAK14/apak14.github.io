@@ -16,7 +16,7 @@ https://apak14.github.io/wa/wa6/wa6.html
 ,
 https://apak14.github.io/wa/wa7/week7.html
 ,
-
+https://apak14.github.io/wa/wa8.html
 ,
 https://apak14.github.io/wa/wa10.html
 
