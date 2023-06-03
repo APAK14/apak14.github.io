@@ -9,3 +9,9 @@
     transform: translate(-50%, -50%);
   }
   
+  .volume-button {
+    font-size: 20px; /* Increase the font size */
+    padding: 10px 20px; /* Adjust the padding to increase button size */
+    position: absolute;
+  }
+  
