@@ -15,28 +15,28 @@ Web, ATLS 2200
 
 ## ICA
 
-* [ICA1](https://aski4331.github.io/ica/ica1.pdf)
-* [ICA2](https://aski4331.github.io/ica/ica2.pdf)
-* [ICA3a](https://aski4331.github.io/ica/ica3a.html)
-* [ICA3b](https://aski4331.github.io/ica/ica3b.html)
-* [ICA4](https://aski4331.github.io/ica/ica4.html)
-* [ICA5](https://aski4331.github.io/ica/ica5/ica5.html)
-* [ICA6(1)](https://aski4331.github.io/ica/ica6/ica6-part1.html)
-* [ICA6(2)](https://aski4331.github.io/ica/ica6/ica6-part2.html)
-* [ICA6(3)](https://aski4331.github.io/ica/ica6/ica6-part3.html)
-* [ICA7](https://aski4331.github.io/ica/ica7.html)
-* [ICA9](https://aski4331.github.io/ica/ica9.html)
-* [ICA10](https://aski4331.github.io/ica/ica10.html)
-* [ICA11](https://aski4331.github.io/ica/ica11.html)
-* [ICA12](https://aski4331.github.io/ica/ica12.html)
-* [ICA13](https://aski4331.github.io/wa/wa13.html)
+* [ICA1](https://apak14.github.io/ica/ica1.pdf)
+* [ICA2](https://apak14.github.io/ica/ica2.pdf)
+* [ICA3a](https://apak14.github.io/ica/ica3a.html)
+* [ICA3b](https://apak14.github.io/ica/ica3b.html)
+* [ICA4](https://apak14.github.io/ica/ica4.html)
+* [ICA5](https://apak14.github.io/ica/ica5/ica5.html)
+* [ICA6(1)](https://apak14.github.io/ica/ica6/ica6-part1.html)
+* [ICA6(2)](https://apak14.github.io/ica/ica6/ica6-part2.html)
+* [ICA6(3)](https://apak14.github.io/ica/ica6/ica6-part3.html)
+* [ICA7](https://apak14.github.io/ica/ica7.html)
+* [ICA9](https://apak14.github.io/ica/ica9.html)
+* [ICA10](https://apak14.github.io/ica/ica10.html)
+* [ICA11](https://apak14.github.io/ica/ica11.html)
+* [ICA12](https://apak14.github.io/ica/ica12.html)
+* [ICA13](https://apak14.github.io/wa/wa13.html)
 * ICA15
 
 ## Midterms
 
-* [HTML](https://aski4331.github.io/html-midterm/page5.html)
-* [CSS](https://aski4331.github.io)
-* [JS](https://aski4331.github.io/final/final.html)
+* [HTML](https://apak14.github.io/html-midterm/page5.html)
+* [CSS](https://apak14.github.io)
+* [JS](https://apak14.github.io/final/final.html)
 
 ICA:
 <p><a href="https://github.com/APAK14/apak14.github.io/blob/main/ica/Alexis%20Pak%20-%20ICA1%20--%20How%20to%20Search.pdf">ica1</a></p>
