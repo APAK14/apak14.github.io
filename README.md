@@ -1,21 +1,42 @@
 # apak14.github.io
 Web, ATLS 2200
 
-WA:
-<p><a href="https://apak14.github.io/wa/wa1.html">wa1</a></p> , <p><a href="https://apak14.github.io/wa/wa2.html">wa2</a></p> , <p><a href="https://apak14.github.io/wa/wa3.html">wa3</a></p>
-,
-<p><a href="https://apak14.github.io/wa/wa4.html">wa4</a></p>
-,
-<p><a href="https://apak14.github.io/wa/wa5.html">wa5</a></p>
-,
-<p><a href="https://apak14.github.io/wa/wa6/wa6.html">wa6</a></p>
-,
-<p><a href="https://apak14.github.io/wa/wa7/week7.html">wa7</a></p>
-,
-<p><a href="https://apak14.github.io/wa/wa8.html">wa8</a></p>
-,
-<p><a href="https://apak14.github.io/wa/wa10.html">wa10</a></p>
-https://apak14.github.io/wa/wa10.html
+## WA
+
+* [WA1](https://apak14.github.io/wa/wa1.html)
+* [WA2](https://apak14.github.io/wa/wa2.html)
+* [WA3](https://apak14.github.io/wa/wa3.html)
+* [WA4](https://apak14.github.io/wa/wa4.html)
+* [WA5](https://apak14.github.io/wa/wa5.html)
+* [WA6](https://apak14.github.io/wa/wa6/wa6.html)
+* [WA7](https://apak14.github.io/wa/wa7/week7.html)
+* [WA8](https://apak14.github.io/wa/wa8.html)
+* [WA10](https://apak14.github.io/wa/wa10.html)
+
+## ICA
+
+* [ICA1](https://aski4331.github.io/ica/ica1.pdf)
+* [ICA2](https://aski4331.github.io/ica/ica2.pdf)
+* [ICA3a](https://aski4331.github.io/ica/ica3a.html)
+* [ICA3b](https://aski4331.github.io/ica/ica3b.html)
+* [ICA4](https://aski4331.github.io/ica/ica4.html)
+* [ICA5](https://aski4331.github.io/ica/ica5/ica5.html)
+* [ICA6(1)](https://aski4331.github.io/ica/ica6/ica6-part1.html)
+* [ICA6(2)](https://aski4331.github.io/ica/ica6/ica6-part2.html)
+* [ICA6(3)](https://aski4331.github.io/ica/ica6/ica6-part3.html)
+* [ICA7](https://aski4331.github.io/ica/ica7.html)
+* [ICA9](https://aski4331.github.io/ica/ica9.html)
+* [ICA10](https://aski4331.github.io/ica/ica10.html)
+* [ICA11](https://aski4331.github.io/ica/ica11.html)
+* [ICA12](https://aski4331.github.io/ica/ica12.html)
+* [ICA13](https://aski4331.github.io/wa/wa13.html)
+* ICA15
+
+## Midterms
+
+* [HTML](https://aski4331.github.io/html-midterm/page5.html)
+* [CSS](https://aski4331.github.io)
+* [JS](https://aski4331.github.io/final/final.html)
 
 ICA:
 <p><a href="https://github.com/APAK14/apak14.github.io/blob/main/ica/Alexis%20Pak%20-%20ICA1%20--%20How%20to%20Search.pdf">ica1</a></p>
