@@ -2,9 +2,7 @@
 Web, ATLS 2200
 
 WA:
-<p><a href="https://apak14.github.io/wa/wa1.html">wa1</a></p>
-,
-<p><a href="https://apak14.github.io/wa/wa2.html">wa2</a></p>
+<p><a href="https://apak14.github.io/wa/wa1.html">wa1</a></p> , <p><a href="https://apak14.github.io/wa/wa2.html">wa2</a></p>
 ,
 <p><a href="https://apak14.github.io/wa/wa3.html">wa3</a></p>
 ,
