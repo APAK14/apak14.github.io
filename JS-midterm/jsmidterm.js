@@ -38,11 +38,13 @@ window.onload = function() {
   }
 
   function volumeUp() {
-    volumeLevel++;
-    changeBackgroundColors();
-    updateVolumeDisplay();
+    if (volumeLevel < 100) {
+      volumeLevel++;
+      changeBackgroundColors();
+      updateVolumeDisplay();
+    }
   }
-  
+
   function volumeDown() {
     if (volumeLevel > 0) {
       volumeLevel--;
@@ -50,15 +52,15 @@ window.onload = function() {
       updateVolumeDisplay();
     }
   }
-  
+
   function scream() {
-    volumeLevel += 10;
+    volumeLevel = 100;
     changeBackgroundColors();
     updateVolumeDisplay();
   }
 
   function toggleMute() {
-    isMuted = !isMuted;
+    volumeLevel = 0;
     if (volumeLevel > 0 && !isMuted) {
       changeBackgroundColors();
     } else {
