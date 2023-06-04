@@ -37,7 +37,6 @@ function getQuestion() {
     });
 }
 
-  
 
 // Function to show the answer
 function showAnswer() {
