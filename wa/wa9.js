@@ -32,14 +32,25 @@ function getQuestion() {
 }
 
 // Function to show the answer
-function showAnswer() {
-  // Get the answer from the stored data attribute
-  const answer = questionElement.dataset.answer;
-
-  // Display the answer in the HTML
-  answerElement.textContent = `Answer: ${answer}`;
-  answerElement.style.display = 'block';
-}
+    function showAnswer() {
+        // Show the loading text
+        const loadingElement = document.getElementById('js-loading');
+        loadingElement.style.display = 'block';
+      
+        // Get the answer from the stored data attribute
+        const answer = questionElement.dataset.answer;
+      
+        // Delay displaying the answer for demonstration purposes
+        setTimeout(() => {
+          // Display the answer in the HTML
+          answerElement.textContent = `Answer: ${answer}`;
+          answerElement.style.display = 'block';
+      
+          // Hide the loading text
+          loadingElement.style.display = 'none';
+        }, 2000); // Adjust the delay time as desired
+      }
+      
 
 // Event listeners for button clicks
 newQuestionButton.addEventListener('click', getQuestion);
