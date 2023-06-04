@@ -12,9 +12,7 @@ function getQuestion() {
     .then(data => {
       // Extract the question and answer from the API response
       const question = data.results[0].question;
-      const answer = data.results[0].answer;
-
-
+      const answer = data.results[0].correct_answer;
 
       // Display the question in the HTML
       questionElement.innerHTML = question;
