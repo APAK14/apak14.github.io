@@ -1,3 +1,5 @@
+
+
 window.onload = function() {
   var volumeControl = document.getElementById("volume-control");
   var buttonContainer = document.getElementById("button-container");
@@ -54,6 +56,17 @@ window.onload = function() {
     changeBackgroundColors();
     updateVolumeDisplay();
   }
+
+  function toggleMute() {
+    isMuted = !isMuted;
+    if (volumeLevel > 0 && !isMuted) {
+      changeBackgroundColors();
+    } else {
+      stopChangingBackgroundColors();
+      volumeLevel = 0; // Set volume level to 0 when muted
+      updateVolumeDisplay(); // Update volume display to show 0
+    }
+  }
   
   function updateVolumeDisplay() {
     volumeDisplay.textContent = "Volume: " + volumeLevel;
@@ -69,7 +82,7 @@ window.onload = function() {
 
   function changeBackgroundColors() {
     clearInterval(backgroundColorInterval);
-    if (!isMuted) {
+    if (volumeLevel > 0 && !isMuted) {
       var intervalDelay = 500 - volumeLevel * 50;
       backgroundColorInterval = setInterval(function() {
         document.body.style.backgroundColor = getRandomColor();

@@ -11,6 +11,7 @@ Web, ATLS 2200
 * [WA6](https://apak14.github.io/wa/wa6/wa6.html)
 * [WA7](https://apak14.github.io/wa/wa7/week7.html)
 * [WA8](https://apak14.github.io/wa/wa8.html)
+* [WA9](https://apak14.github.io/wa/wa9.html)
 * [WA10](https://apak14.github.io/wa/wa10.html)
 
 ## ICA
