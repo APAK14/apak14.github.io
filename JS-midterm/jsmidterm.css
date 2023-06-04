@@ -1,31 +1,3 @@
-#volume-circle {
-  width: 200px;
-  height: 200px;
-  border-radius: 50%;
-  background-color: red;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  animation: pulse 1s infinite alternate;
-}
-
-@keyframes pulse {
-  0% {
-    transform: scale(1);
-  }
-  100% {
-    transform: scale(1.2);
-  }
-}
-
-#volume-circle-text {
-  color: white;
-  font-size: 18px;
-  text-align: center;
-  margin: 0;
-}
-
-
 #volume-control {
   width: 400px;
   height: 200px;
@@ -57,3 +29,13 @@
   display: none;
 }
 
+#button-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+
+.volume-button {
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
